@@ -1,0 +1,10 @@
+{
+"name": "my-proposal-project",
+"version": "1.0.0",
+"description": "WDD330 final project",
+"main": "index.html",
+"script":{
+"test": "echo|"Error: no test specified|"&&exit-1"
+},
+"Author": "Joel Mwaura<mwa21001@byui.edu>"
+}
