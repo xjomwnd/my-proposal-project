@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/style.css" />
+    <link media="screen" rel="stylesheet" href="css/main.css" />
+    <script defer src="src/index.js"></script>
+    <script defer src="src/last-modified.js"></script>
+    <script defer src="src/hamburger.js"></script>
+    <script defer src='src/App.js'></script>
+    <script defer src="src/Counter.js"></script>
+    
   </head>
   <header>
     <div class="headertop">
@@ -21,7 +28,7 @@
     <picture>
       <img src="images/recipe-icon.jpg" alt="Logo">
     </picture>
-    <h1>Recipe Foods</h1>
+    <h1>Recipe App</h1>
     </div>
       <br>
       <hr> 
@@ -37,8 +44,11 @@
     </nav>
   </div> 
   </header>
+  
   <body>
+    
     <div class="container">
+        <main>
       <div class="search-container">
         <input
           type="text"
@@ -48,15 +58,12 @@
         <button id="search-btn">Search</button>
       </div>
       <div id="result"></div>
+    </main>
     </div>
     <!-- Script -->
     <script src="js/recipe-app.js"></script>
-  </body>
-  <footer class="footer">
-    <div>
-        <h3>Recipe Foods</h3>
-        &copy;<span id="year"></span>|<span> Recipe Foods</span> | BYU-Idaho | Joel Ndiba Mwaura |
-        <p class="last-update" id="lastModified"></p>
-        </div>
-</footer>
+  
+</body>
+  
+
 </html>
