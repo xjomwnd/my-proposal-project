@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe App</title>
     <!-- Google Fonts -->
@@ -11,6 +12,28 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <header>
+    <div class="headertop">
+    <div class="logo">
+    <picture>
+      <img src="images/recipe-icon.jpg" alt="Logo">
+    </picture>
+    <h1>Recipe Foods</h1>
+    </div>
+      <br>
+      <hr> 
+      <div class="menu"></div>
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="https://xjomwnd.github.io/my-proposal-project/">Home</a></li>
+          <li><a href="https://xjomwnd.github.io/my-proposal-project/week9/site-plan">Site-plan</a></li>
+          <li><a href="https://xjomwnd.github.io/my-proposal-project/week10/about.html">About Us</a></li>
+          <li><a href="https://xjomwnd.github.io/my-proposal-project/week11/recipe.html" class="active">Recipe Page</a></li>
+    </ul>
+    </nav>
+  </div> 
+  </header>
   <body>
     <div class="container">
       <div class="search-container">
@@ -24,6 +47,13 @@
       <div id="result"></div>
     </div>
     <!-- Script -->
-    <script src="./script.js"></script>
+    <script src="js/recipe-app.js"></script>
   </body>
+  <footer class="footer">
+    <div>
+        <h3>Recipe Foods</h3>
+        &copy;<span id="year"></span>|<span> Recipe Foods</span> | BYU-Idaho | Joel Ndiba Mwaura |
+        <p class="last-update" id="lastModified"></p>
+        </div>
+</footer>
 </html>
