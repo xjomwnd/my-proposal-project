@@ -453,12 +453,11 @@ body {
   border-radius: 5px;
 	box-shadow: 0 0 5px rgb(34, 33, 33);
   }
-  ..iwf-logo {
-	margin: 15px;
-	  width: 40%;
-	height: auto;
-	align-self: left;
-	}
+  .iwf-logo {
+  margin: 15px;
+	width: 40%;
+  height: auto;
+  }
   
   h2 {
   color: rgb(3, 2, 2);
