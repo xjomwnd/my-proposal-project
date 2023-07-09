@@ -1,6 +1,6 @@
 body {
 	margin: auto;
-	background-color: white;
+	background-color: #FFFFFF;
 	color: #311288;
 	text-align: center;
    
@@ -315,7 +315,7 @@ body {
   
   nav ul li.active a {
 	background-color: rgba(0,0,0,0.2);
-	color: #fff;
+	color: #FFFFFF;
 	text-align: center;
   }
   
@@ -379,7 +379,7 @@ body {
   .bar3 {
 	width: 35px;
 	height: 5px;
-	background-color: white;
+	background-color: #FFFFFF;
 	margin: 6px 0;
 	transition: 0.4s;
   }
@@ -408,7 +408,7 @@ body {
 	text-align: left;
 	text-decoration: none;
 	font-weight: lighter;
-	color: white;
+	color: #FFFFFF;
 	letter-spacing: .1em;
 	border-top: 1px solid rgba(0, 0, 0, 0.3);
   }
@@ -621,7 +621,7 @@ body {
 	  background-color: #f5f8f8;
   }
   .navigation .active {
-	color: white;
+	color: #FFFFFF;
 	font-weight: bold;
   }
   .responsive li {
@@ -663,7 +663,7 @@ body {
   .flex-col:hover {
 	opacity: 0.75;
 	background-color: rgb(176, 214, 176);
-	color: white;
+	color: #FFFFFF;
   }
   .forecast img{
 	margin: 0 auto;
@@ -723,7 +723,7 @@ body {
   
   button, [type='submit'] {
 	background-color: #1f1137;
-	color: #fff;
+	color: #FFFFFF;
 	font-weight: bold;
 	border-radius: 50%;
 	padding: 10px 15px;
