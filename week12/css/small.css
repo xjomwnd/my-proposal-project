@@ -97,6 +97,9 @@ body {
   }
   header {
 	display: center;
+	width: 100%;
+	height: 400px;
+	font-family: 'Montserrat', sans-serif;
   }
   header img {
 	max-width: 200px;
