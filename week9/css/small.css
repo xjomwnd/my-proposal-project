@@ -45,7 +45,7 @@ body {
 	font-size: 1.5rem;
 	font-family: 'Montserrat', sans-serif;
   }
-  }
+  
   h2 {
 	font-size: 1rem;
   }
@@ -286,7 +286,7 @@ body {
 	background: transparent;
 	border: none;
 	font-size: 2.5rem;
-	color:#555;
+	color: #fff;
   }
   
   .nav {
