@@ -187,10 +187,10 @@ body {
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
   }
-  .logo img {
-	width: 100%;
-	height: auto;
-	align-self: left;
+  .logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
   }
   .logo img {
 	width: 100%;
@@ -454,11 +454,10 @@ body {
 	box-shadow: 0 0 5px rgb(34, 33, 33);
   }
   .iwf-logo {
-	margin: 15px;
-	  width: 40%;
-	height: auto;
-	align-self: left;
-	}
+  margin: 15px;
+	width: 40%;
+  height: auto;
+  }
   
   h2 {
   color: rgb(3, 2, 2);
