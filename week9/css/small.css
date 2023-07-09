@@ -722,8 +722,8 @@ body {
   }
   
   button, [type='submit'] {
-	background-color: #1f1137;
-	color: #FFFFFF;
+	background-color: #FFFFFF;
+	color: #000000;
 	font-weight: bold;
 	border-radius: 50%;
 	padding: 10px 15px;
