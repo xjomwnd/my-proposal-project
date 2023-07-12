@@ -1,0 +1,38 @@
+@media (min-width: 1280px) {
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3fr, 1fr);
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .card a,
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+/*media queries */
+@media screen and (max-width: 1200px) {
+    body {
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #xbox,
+    #mix,
+    #ux-engineer {
+        min-width: 96%;
+    }
+
+    .grid-item {
+        min-width: 96%;
+    }
+
+}
